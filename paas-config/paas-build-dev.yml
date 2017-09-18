@@ -2,7 +2,7 @@ spring:
   datasource:
     name: mydb
     type: org.apache.commons.dbcp.BasicDataSource
-    url: jdbc:mysql://192.168.154.128:3306/paas?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/paas?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
     username: root
     password: lm123456
     driver-class-name: com.mysql.jdbc.Driver
