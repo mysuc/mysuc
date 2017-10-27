@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    name: mydb
+    type: org.apache.commons.dbcp.BasicDataSource
+    url: jdbc:mysql://localhost:3306/jiumu?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+    username: root
+    password: will
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 10
+    maxActive: 30
+    validationQuery: select 1
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+influxdb:
+  url: http://192.168.93.143:8086
+  database: telegraf
+  user: admin
+  password: admin
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8081
