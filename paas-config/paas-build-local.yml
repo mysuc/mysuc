@@ -13,10 +13,10 @@ spring:
     testOnBorrow: false
     testOnReturn: false
 influxdb:
-  url: http://192.168.93.143:8086
+  url: http://192.168.30.76:8086
   database: telegraf
-  user: admin
-  password: admin
+  user: root
+  password: root
 eureka:
   client:
     serviceUrl:
