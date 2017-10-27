@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    name: mydb
+    type: org.apache.commons.dbcp.BasicDataSource
+    url: jdbc:mysql://47.93.22.117:3306/paas?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+    username: paas
+    password: neusoft,123
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 10
+    maxActive: 30
+    validationQuery: select 1
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8082
+  context-path: /uaa
+  use-forward-headers: false
