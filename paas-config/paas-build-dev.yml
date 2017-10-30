@@ -26,3 +26,7 @@ influxdb:
   database: telegraf
   user: root
   password: root
+
+paas:
+  repositoryDir: d:/paasdir
+  registry: 192.168.30.76:5000
