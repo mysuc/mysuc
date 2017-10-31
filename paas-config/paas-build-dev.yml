@@ -22,7 +22,7 @@ server:
   port: 8081
 
 influxdb:
-  url: http://192.168.154.135:8086
+  url: http://192.168.154.136:8086
   database: telegraf
   user: root
   password: root
