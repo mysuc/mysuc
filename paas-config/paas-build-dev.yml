@@ -29,4 +29,4 @@ influxdb:
 
 paas:
   repositoryDir: d:/paasdir
-  registry: 192.168.154.135:5000
+  registry: 192.168.154.136:5000
